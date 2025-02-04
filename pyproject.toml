@@ -12,6 +12,8 @@ requires-poetry = ">=2.0"
 [tool.poetry.dependencies]
 python = "~3.13.0"
 
+boto3 = "1.35.75"
+
 [tool.poetry.requires-plugins]
 poetry-plugin-export = ">=1.9.0"
 poetry-plugin-lambda-build = ">=1.0.7"
